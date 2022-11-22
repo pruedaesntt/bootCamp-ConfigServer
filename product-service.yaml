@@ -2,4 +2,9 @@ server:
   port: 8080
 product:
   product-name: Zapatillas de Deporte (Roja)
- 
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
